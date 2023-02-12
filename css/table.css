@@ -1,0 +1,24 @@
+.table {
+    border-collapse: collapse;
+    margin:auto;
+    margin-top: 50px;
+    width:100%
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 5px;
+    text-shadow: 2px 3px 10px #e88bb0
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+}
+.table__header {
+    background-color: #e88bb0;
+    font-weight: normal;
+}

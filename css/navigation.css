@@ -1,0 +1,19 @@
+.navigation__list {
+    list-style-type: none;
+}
+.navigation__item { 
+    margin: 5px;
+}
+
+.navigation__link {
+    color:#d2799d;
+    text-decoration: none;   
+}
+.navigation__link:hover {
+    color:#c1316b;
+    border-bottom: 1px solid;
+}
+.navigation__link:focus {
+    color:#c1316b;
+    outline: 2px solid black;
+}

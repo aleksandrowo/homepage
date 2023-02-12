@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mnie *konwencja BEM*</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <h3>Nawigacja po stronie</h1>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#kim-jestem" class="navigation__link">Kim jestem</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#doświadczenie" class="navigation__link">Doświadczenie</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#wykształcenie" class="navigation__link">Wykształcenie</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#zainteresowania"class="navigation__link">Zainteresowania</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#moje-ulubione-seriale" class="navigation__link">Moje ulubione seriale</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#kontakt" class="navigation__link">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <section id="kim-jestem" class="section">
+            <div><img class="section__photo" width="300" height="300" src="https://i.ibb.co/ggVbqKd/Aleksandra-Chrusciel.jpg"></div>
+            <h2 class="section__subHeader">Kim jestem</h2>
+            <p>Jestem absolwentką technikum ekonomicznego. Moim zainteresowaniem od zawsze był sport,
+                księgowość oraz branża IT.
+            </p>
+        </section>
+        <section id="doświadczenie" class="section">
+            <h3 class="section__subHeader">Doświadczenie</h3>
+            <p>
+                <b>01/2015 – teraz</b> Sędzia koszykówki WOZKosz WM
+                <br><b>06/2019 – 08/2019</b> Pracownik Młodociany Restauracji McDonald
+                <br><b>06/2018 – 08/2018</b> Pracownik Młodociany Restauracji McDonald
+            </p>
+        </section>
+        <section id="wykształcenie" class="section">
+            <h3 class="section__subHeader">Wykształcenie</h3>
+            <p>
+                <b>09/2018 – 05/2022</b> Zespół Szkół Ekonomicznych im. Stanisława Staszica w Wołominie
+                <br><b>Tytuł:Technik Ekonomista, Technik rachunkowości</b>
+                <br><b>09/2012 – 06/2018</b> Sportowa Szkoła Podstawowa nr. 5 im. Polskich olimpijczyków w Wołominie
+            </p>
+        </section>
+        <section id="zainteresowania" class="section">
+            <h3 class="section__subHeader">Zainteresowania</h3>
+            <ul class="section__unorderedList">
+                <li>Moją pasją jest sport, m.in.koszykówka </li>
+                <li>Interesuję się podróżami</li>
+                <li>Lubię oglądać filmy i seriale</li>
+                <li>Lubię słuchać muzyki</li>
+                <li>Interesuję się informatyką i programowaniem </li>
+            </ul>
+        </section>
+        <section id="moje-ulubione-seriale" class="section">
+            <div class="section__container">
+                <table class="table">
+                    <caption class="table__caption"> Moje ulubione seriale </caption>
+                    <thead>
+                        <tr>
+                            <td class="table__cell table__header" scoope="col">Tytuł</th>
+                            <td class="table__cell table__header" scoope="col">Ilość sezonów</th>
+                            <td class="table__cell table__header" scoope="col">Gatunek</th>
+                        </tr>
+                        <tr>
+                            <td class="table__cell table__header" scoope="row">Pamietniki wampirów</th>
+                            <td class="table__cell">8</td>
+                            <td class="table__cell" rowspan="3">Science Fiction</td>
+                        </tr>
+                        <tr>
+                            <td class="table__cell table__header" scoope="row">Teen Wolf</th>
+                            <td class="table__cell">6</td>
+                        </tr>
+                        <tr>
+                            <td class="table__cell table__header" scoope="row">The Originals</th>
+                            <td class="table__cell">5</td>
+                        </tr>
+                        <tr>
+                            <td class="table__cell table__header" scoope="row">Dom z papieru</th>
+                            <td class="table__cell">5</td>
+                            <td class="table__cell">Dreszczowiec</td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </section>
+        <footer id="kontakt" class="footer">
+            <button class="button"><em class="button">Kontakt</em></button>
+            <div class="footer__contact footer__hide">mail@gmail.com<br>+48 000 000 000</div>
+        </footer>
+    </main>
+</body>
+
+</html>
